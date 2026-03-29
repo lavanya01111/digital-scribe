@@ -1,0 +1,12 @@
+# ai_service/requirements.txt
+fastapi
+uvicorn
+transformers
+torch
+Pillow
+symspellpy
+langdetect
+openai-whisper
+python-multipart
+pydantic
+setuptools

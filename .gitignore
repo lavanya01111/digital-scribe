@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Frontend builds
+frontend/dist/
+dist/
+.vite/
+
+# Python virtual environments & Cache
+ai_service/venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Models and Datasets (large files should not be in git)
+ai_service/models_saved/
+ai_service/data/
+
+# Environment variables
+.env
+.env.local
+
+# OS specific files
+.DS_Store
+Thumbs.db

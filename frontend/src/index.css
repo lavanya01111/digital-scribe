@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-scribe-bg text-slate-800 antialiased;
+  }
+}
+
+/* Dyslexic friendly reading glasses effect class */
+.dyslexic-reading-bar {
+  background: rgba(255, 255, 0, 0.2);
+  border-bottom: 2px solid rgba(255, 200, 0, 0.5);
+}
